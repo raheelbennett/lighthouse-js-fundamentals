@@ -1,0 +1,19 @@
+//Define a function lastIndexOf.
+/*function lastIndexOf (x, y) {
+  let z= x.indexOf(y);
+  return z
+} */
+
+
+function lastIndexOf (x, y) {
+  for (i = x.length -1 ; i >= 0 ; i--) {
+    if ()
+  }
+}
+
+
+console.log(lastIndexOf([ 0, 1, 4, 1, 2 ], 1), "=?", 3);
+console.log(lastIndexOf([ 0, 1, 4, 1, 2 ], 2), "=?", 4);
+console.log(lastIndexOf([ 0, 1, 4, 1, 2 ], 3), "=?", -1);
+console.log(lastIndexOf([ 5, 5, 5 ], 5), "=?", 2);
+console.log(lastIndexOf([], 3), "=?", -1);
